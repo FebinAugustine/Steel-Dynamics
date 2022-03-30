@@ -114,6 +114,10 @@
 }
 @media  only screen and (max-width:600px) {
 
+    .sd-footer p {
+        font-size: .7rem;
+    }
+
     .address img {
         width: 120px;
     }
@@ -129,6 +133,54 @@
         margin-right: 30px;
         width: auto;
     }
+
+}
+
+@media  only screen and (max-width:525px) {
+
+    .sd-footer .sd-footer-content {
+        justify-content: space-between;
+    }
+    .block1 {
+        margin-right: 10px;
+        margin-left: -30px;
+        width: 100px;
+       
+    }
+    .sd-footer p {
+        font-size: .6rem;
+    }
+
+
+}
+@media  only screen and (max-width:475px) {
+
+    .sd-footer .sd-footer-content {
+        justify-content: space-between;
+    }
+    .block1 {
+        margin-right: 5px;
+        margin-left: -50px;
+        width: 100px;
+       
+    }
+    .sd-footer p {
+        font-size: .5rem;
+    }
+}
+
+@media  only screen and (max-width:450px) {
+
+    .block1 {
+        margin-right: 5px;
+        margin-left: -70px;
+        width: 100px;
+       
+    }
+    .sd-footer p {
+        font-size: .4rem;
+    }
+
 
 }
 
