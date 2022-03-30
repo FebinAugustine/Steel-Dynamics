@@ -1,3 +1,5 @@
+This is my static responsive web site which i created for my friend.
+
 Welocome to Steel Dynamics 
 
 
