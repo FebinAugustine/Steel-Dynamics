@@ -10,6 +10,7 @@
     background-image: url('../images/socialmediaicons/steelDynamics_fbIcon_color.png');
     background-size: 55px;
     justify-content: center;
+	z-index: 2;
 }
 .float-whatsApp{
 	position:fixed;
@@ -23,6 +24,7 @@
     background-image: url('../images/socialmediaicons/steelDynamics_whatsappIcon_color.png');
     background-size: 55px;
     justify-content: center;
+	z-index: 2;
 }
 
 .float-kolo{
@@ -37,6 +39,7 @@
     background-image: url('../images/socialmediaicons/steelDynamics_koloIcon_color.png');
     background-size: 55px;
     justify-content: center;
+	z-index: 2;
 }
 .float-callus{
 	position:fixed;
@@ -50,6 +53,7 @@
     background-image: url('../images/socialmediaicons/steelDynamics_phoneCallIcon_color.png');
     background-size: 55px;
     justify-content: center;
+	z-index: 2;
 }
 
 
