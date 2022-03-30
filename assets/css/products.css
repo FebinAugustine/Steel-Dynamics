@@ -1,0 +1,117 @@
+/*Our Products */
+
+section {
+    width: 80%;
+    margin: 40px auto;
+}
+.prd-gallery {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(77, 77, 78);
+}
+.productTitle {
+    margin-top: 50px;
+}
+.productTitle h2 {
+    font-size: 28px;
+}
+.productTitle .line {
+    width: 80%;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.row .cols {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    background-color: #ffffff;
+    padding: 3px;
+    padding-bottom: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.products .row {
+    margin-top: 10px;
+}
+.cols h4 {
+    font-size: 1.2rem;
+    margin: 5px auto;
+    color: rgb(54, 54, 54);
+}
+
+.products .ctn {
+    text-decoration: none;
+    padding: 5px 8px;
+    background: rgb(1, 19, 122);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 2vmin;
+    margin: 10px auto;
+}
+
+/* Animations */
+
+.products .ctn:hover {
+    padding: 5px 10px;
+    background: rgb(134, 148, 228);
+    border-radius: 30px;
+    color: rgb(22, 22, 22);
+    transition-duration: 1000ms;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+/* Responsive */
+
+@media  only screen and (max-width:970px) {
+
+    .row .cols {
+        width: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3px;
+        background-color: #ffffff;
+        padding: 3px;
+        padding-bottom: 5px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+
+    .row .cols .preproimg {
+        width: 240px;
+
+    }
+
+    
+}
+
+@media  only screen and (max-width:770px) {
+
+    .products .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+    }
+    .row .cols {
+        width: 300px;
+        height: auto;
+        margin: 3px;
+        margin-bottom: 20px;        
+        padding: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+    .row .cols .preproimg {
+        width: 290px;
+
+    }    
+}
+

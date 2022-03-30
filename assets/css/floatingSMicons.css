@@ -1,0 +1,69 @@
+.float-fb{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;	
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 1px rgb(71, 71, 71);
+    background-image: url('../images/socialmediaicons/steelDynamics_fbIcon_color.png');
+    background-size: 55px;
+    justify-content: center;
+}
+.float-whatsApp{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:100px;
+	right:40px;	
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 1px rgb(71, 71, 71);
+    background-image: url('../images/socialmediaicons/steelDynamics_whatsappIcon_color.png');
+    background-size: 55px;
+    justify-content: center;
+}
+
+.float-kolo{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:160px;
+	right:40px;	
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 1px rgb(71, 71, 71);
+    background-image: url('../images/socialmediaicons/steelDynamics_koloIcon_color.png');
+    background-size: 55px;
+    justify-content: center;
+}
+.float-callus{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:220px;
+	right:40px;	
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 1px rgb(71, 71, 71);
+    background-image: url('../images/socialmediaicons/steelDynamics_phoneCallIcon_color.png');
+    background-size: 55px;
+    justify-content: center;
+}
+
+
+.my-float{
+	margin-top:22px;
+}
+
+.float-whatsApp:hover {
+    transform: scale(1.1);
+}
+.float-fb:hover{
+    transform: scale(1.1);
+}
+
+.float-kolo:hover{
+    transform: scale(1.1);
+}

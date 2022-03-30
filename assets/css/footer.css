@@ -1,0 +1,134 @@
+/* Footer styling */
+
+.sd-footer {
+    width: 100%;
+    min-height: 130px;
+    padding: 20px 80px;
+    
+    background-image: linear-gradient(to bottom, rgb(58, 57, 57), rgb(37, 37, 37));
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sd-footer p {
+    color: rgb(168, 167, 167);
+    margin: auto;
+    padding: 20px auto;
+    margin-bottom: 20px;
+}
+
+.sd-footer .sd-footer-content {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sd-footer-content .block1{
+    height: auto;
+    width: auto;
+    padding: 5px 10px;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+       
+}
+
+.block1 .footer-li-a {
+    text-decoration: none;
+    color: rgb(168, 167, 167);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5rem;
+}
+
+.block1 .footer-li-a:hover {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.sd-footer .sd-footer-content .sd_sm_icons{
+    height: 60px;
+    width: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.sd_sm_icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.block2 {
+    align-items:flex-start;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.block2 h4 {
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.address {
+    width: auto;
+    height: auto;
+    text-align: left;
+
+}
+.address img {
+    width: 200px;
+}
+.address p {
+    line-height: 1.5rem;
+    font-size: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(168, 167, 167);
+}
+
+
+@media  only screen and (max-width:650px) {
+
+    .address img {
+        width: 150px;
+    }
+    .address p {
+        font-size: 1.8vh;
+        line-height: 1.2rem;
+    }
+    .block1 .footer-li-a {
+        font-size: 1.8vh;
+        line-height: 1.2rem;
+    }
+    .block1 {
+        margin-right: 30px;
+        width: auto;
+    }
+
+}
+@media  only screen and (max-width:600px) {
+
+    .address img {
+        width: 120px;
+    }
+    .address p {
+        font-size: 1.6vh;
+        line-height: 1.1rem;
+    }
+    .block1 .footer-li-a {
+        font-size: 1.5vh;
+        line-height: 1.1rem;
+    }
+    .block1 {
+        margin-right: 30px;
+        width: auto;
+    }
+
+}
+
