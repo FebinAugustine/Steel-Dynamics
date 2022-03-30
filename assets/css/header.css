@@ -98,3 +98,21 @@
 
 
 }
+
+@media  only screen and (max-width:350px) {
+
+    .sdhdr {
+        justify-content: right;
+    }
+
+    .header-content {
+        margin-right: -30px;
+        transition: all 1s ease;
+       
+    }
+
+    
+    /* Animations */
+
+
+}
