@@ -52,10 +52,26 @@
     color: black;
 }
 
-@media  only screen and (max-width:390px) {
+@media  only screen and (max-width:824px) {
 
     .about-content p {
         font-size: 12px;
+    }
+
+}
+
+@media  only screen and (max-width:570px) {
+
+    .about-content p {
+        font-size: 10px;
+    }
+
+}
+
+@media  only screen and (max-width:390px) {
+
+    .about-content p {
+        font-size: 9px;
     }
     .about {
         padding: 0 10px;
